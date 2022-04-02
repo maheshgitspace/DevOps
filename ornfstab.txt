@@ -1,0 +1,202 @@
+
+######################orclbn631######################
+#             NFS Server OnTAP Cluster Node1
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn01
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.51 path: 10.29.76.31
+local:     10.29.77.51 path: 10.29.77.31
+nfs_version: nfsv3
+# export: /oracle_allegispoc_home_orclbn631_u01_t070_vol mount: /u01
+export: /oracle_allegispoc_ri_admin_u02_t070_vol mount: /u02
+ 
+#             NFS Server OnTAP Cluster Node2
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn02
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.51 path: 10.29.76.32
+local:     10.29.77.51 path: 10.29.77.32
+nfs_version: nfsv3
+export: /oracle_allegispoc_wihc_data_u60_t070_vol  mount: /u60
+
+ 
+#             NFS Server OnTAP Cluster Node3
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn03
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.51 path: 10.29.76.33
+local:     10.29.77.51 path: 10.29.77.33
+nfs_version: nfsv3
+export: /oracle_allegispoc_rihc_data_u11_t070_vol  mount: /u11
+export: /oracle_allegispoc_wi_logs_u90_t070_vol mount: /u90
+ 
+#             NFS Server OnTAP Cluster Node5
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn05
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.51 path: 10.29.76.35
+local:     10.29.77.51 path: 10.29.77.35
+nfs_version: nfsv3
+export: /oracle_allegispoc_rihc_data_u10_t070_vol mount: /u10
+ 
+ 
+#             NFS Server OnTAP Cluster Node6
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn06
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.51 path: 10.29.76.36
+local:     10.29.77.51 path: 10.29.77.36
+nfs_version: nfsv3
+
+
+
+
+
+######################orclbn632######################
+#             NFS Server OnTAP Cluster Node1
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn01
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.52 path: 10.29.76.31
+local:     10.29.77.52 path: 10.29.77.31
+nfs_version: nfsv3
+# export: /oracle_allegispoc_home_orclbn632_u01_t070_vol mount: /u01
+export: /oracle_allegispoc_ri_admin_u02_t070_vol mount: /u02
+ 
+#             NFS Server OnTAP Cluster Node2
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn02
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.52 path: 10.29.76.32
+local:     10.29.77.52 path: 10.29.77.32
+nfs_version: nfsv3
+export: /oracle_allegispoc_wihc_data_u60_t070_vol  mount: /u60
+
+ 
+#             NFS Server OnTAP Cluster Node3
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn03
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.52 path: 10.29.76.33
+local:     10.29.77.52 path: 10.29.77.33
+nfs_version: nfsv3
+export: /oracle_allegispoc_rihc_data_u11_t070_vol  mount: /u11
+export: /oracle_allegispoc_wi_logs_u90_t070_vol mount: /u90
+ 
+#             NFS Server OnTAP Cluster Node5
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn05
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.52 path: 10.29.76.35
+local:     10.29.77.52 path: 10.29.77.35
+nfs_version: nfsv3
+export: /oracle_allegispoc_rihc_data_u10_t070_vol mount: /u10
+ 
+ 
+#             NFS Server OnTAP Cluster Node6
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn06
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.52 path: 10.29.76.36
+local:     10.29.77.52 path: 10.29.77.36
+nfs_version: nfsv3
+
+
+######################orclbn633######################
+#             NFS Server OnTAP Cluster Node1
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn01
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.53 path: 10.29.76.31
+local:     10.29.77.53 path: 10.29.77.31
+nfs_version: nfsv3
+# export: /oracle_allegispoc_home_orclbn633_u01_t070_vol mount: /u01
+export: /oracle_allegispoc_ri_admin_u02_t070_vol mount: /u02
+ 
+#             NFS Server OnTAP Cluster Node2
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn02
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.53 path: 10.29.76.32
+local:     10.29.77.53 path: 10.29.77.32
+nfs_version: nfsv3
+export: /oracle_allegispoc_wihc_data_u60_t070_vol  mount: /u60
+
+ 
+#             NFS Server OnTAP Cluster Node3
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn03
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.53 path: 10.29.76.33
+local:     10.29.77.53 path: 10.29.77.33
+nfs_version: nfsv3
+export: /oracle_allegispoc_rihc_data_u11_t070_vol  mount: /u11
+export: /oracle_allegispoc_wi_logs_u90_t070_vol mount: /u90
+ 
+#             NFS Server OnTAP Cluster Node5
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn05
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.53 path: 10.29.76.35
+local:     10.29.77.53 path: 10.29.77.35
+nfs_version: nfsv3
+export: /oracle_allegispoc_rihc_data_u10_t070_vol mount: /u10
+ 
+ 
+#             NFS Server OnTAP Cluster Node6
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn06
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.53 path: 10.29.76.36
+local:     10.29.77.53 path: 10.29.77.36
+nfs_version: nfsv3
+
+
+######################orclbn634######################
+#             NFS Server OnTAP Cluster Node1
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn01
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.54 path: 10.29.76.31
+local:     10.29.77.54 path: 10.29.77.31
+nfs_version: nfsv3
+# export: /oracle_allegispoc_home_orclbn634_u01_t070_vol mount: /u01
+export: /oracle_allegispoc_ri_admin_u02_t070_vol mount: /u02
+ 
+#             NFS Server OnTAP Cluster Node2
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn02
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.54 path: 10.29.76.32
+local:     10.29.77.54 path: 10.29.77.32
+nfs_version: nfsv3
+export: /oracle_allegispoc_wihc_data_u60_t070_vol  mount: /u60
+
+ 
+#             NFS Server OnTAP Cluster Node3
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn03
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.54 path: 10.29.76.33
+local:     10.29.77.54 path: 10.29.77.33
+nfs_version: nfsv3
+export: /oracle_allegispoc_rihc_data_u11_t070_vol  mount: /u11
+export: /oracle_allegispoc_wi_logs_u90_t070_vol mount: /u90
+ 
+#             NFS Server OnTAP Cluster Node5
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn05
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.54 path: 10.29.76.35
+local:     10.29.77.54 path: 10.29.77.35
+nfs_version: nfsv3
+export: /oracle_allegispoc_rihc_data_u10_t070_vol mount: /u10
+ 
+ 
+#             NFS Server OnTAP Cluster Node6
+server: bn6-a700s-saphan-1-01v070-client7-orcl-prodn06
+#             Discrete Network Path (VLAN76/VLAN77)
+#
+local:      10.29.76.54 path: 10.29.76.36
+local:     10.29.77.54 path: 10.29.77.36
+nfs_version: nfsv3
